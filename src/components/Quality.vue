@@ -23,7 +23,7 @@ const props = defineProps({
 }
 
 .bg-qualities-image {
-    background-image: url('../../../../public/bg-images/bg-pattern-small-circle.svg');
+    background-image: url('/bg-images/bg-pattern-small-circle.svg');
     background-repeat: no-repeat;
     background-position: center;
 }

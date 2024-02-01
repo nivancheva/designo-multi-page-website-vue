@@ -13,7 +13,7 @@
 <style scoped>
   .get-in-touch {
     background-color: var(--clr-peach);
-    background-image: url('../../../../public/bg-images/bg-pattern-call-to-action.svg');
+    background-image: url('/bg-images/bg-pattern-call-to-action.svg');
     background-repeat: no-repeat;
     background-position: center;
     color: var(--clr-white);

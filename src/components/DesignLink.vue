@@ -32,15 +32,15 @@ const props = defineProps({
 }
 
 .image-app-design {
-    background-image: url("../../../../public/design-link-images/mobile/image-app-design.jpg");
+    background-image: url("/design-link-images/mobile/image-app-design.jpg");
 }
 
 .image-web-design {
-    background-image: url("../../../../public/design-link-images/mobile/image-web-design.jpg");
+    background-image: url("/design-link-images/mobile/image-web-design.jpg");
 }
 
 .image-graphic-design {
-     background-image: url("../../../../public/design-link-images/mobile/image-graphic-design.jpg");
+     background-image: url("/design-link-images/mobile/image-graphic-design.jpg");
 }
 
 /* mobile */
@@ -57,15 +57,15 @@ const props = defineProps({
    }
 
    .image-app-design {
-       background-image: url("../../../../public/design-link-images/tablet/image-app-design.jpg");
+       background-image: url("/design-link-images/tablet/image-app-design.jpg");
    }
 
    .image-web-design {
-       background-image: url("../../../../public/design-link-images/tablet/image-web-design.jpg");
+       background-image: url("/design-link-images/tablet/image-web-design.jpg");
    }
    
    .image-graphic-design {
-        background-image: url("../../../../public/design-link-images/tablet/image-graphic-design.jpg");
+        background-image: url("/design-link-images/tablet/image-graphic-design.jpg");
    }
 }
 
@@ -79,15 +79,15 @@ const props = defineProps({
    }
 
    .image-app-design {
-       background-image: url("../../../../public/design-link-images/desktop/image-app-design.jpg");
+       background-image: url("/design-link-images/desktop/image-app-design.jpg");
    }
 
    .image-web-design {
-       background-image: url("../../../../public/design-link-images/desktop/image-web-design-large.jpg");
+       background-image: url("/design-link-images/desktop/image-web-design-large.jpg");
    }
    
    .image-graphic-design {
-        background-image: url("../../../../public/design-link-images/desktop/image-graphic-design.jpg");
+        background-image: url("/design-link-images/desktop/image-graphic-design.jpg");
    }
 }
 </style>

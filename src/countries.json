@@ -17,6 +17,7 @@
         "id": 2,
         "image": "illustration-australia",
         "name": "Australia",
+        "abbreviation": "australia",
         "street": "19 Balonne Street",
         "city": "New South Wales 2443",
         "telephone": "(02) 6720 9092",
