@@ -32,6 +32,6 @@ import designsJson from'../designs.json'
 <style scoped>
 @import "./design.css";
 .design-heading {
-    background-image: url("../../../../public/graphic-design/bg-pattern-intro-graphic.svg");
+    background-image: url("/graphic-design/bg-pattern-intro-graphic.svg");
 }
 </style>
