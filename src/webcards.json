@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "EXPRESS",
+        "text": "A multi-carrier shipping website for ecommerce businesses",
+        "category": "web-design",
+        "image": "image-express"
+    },
+
+    {
+        "id": 2,
+        "title": "TRANSFER",
+        "text": "Site for low-cost money transfers and sending money within seconds",
+        "category": "web-design",
+        "image": "image-transfer"
+    },
+
+    {
+        "id": 3,
+        "title": "PHOTON",
+        "text": "A state-of-the-art music player with high-resolution audio and DSP effects",
+        "category": "web-design",
+        "image": "image-photon"
+    },
+
+    {
+        "id": 4,
+        "title": "BUILDER",
+        "text": "Connects users with local contractors based on their location",
+        "category": "web-design",
+        "image": "image-builder"
+    },
+
+    {
+        "id": 5,
+        "title": "BLOGR",
+        "text": "Blogr is a platform for creating an online blog or publication",
+        "category": "web-design",
+        "image": "image-blogr"
+    },
+
+    {
+        "id": 6,
+        "title": "CAMP",
+        "text": "Get expert training in coding, data, design, and digital marketing",
+        "category": "web-design",
+        "image": "image-camp"
+    }
+
+]

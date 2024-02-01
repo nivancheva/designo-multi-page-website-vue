@@ -1,0 +1,22 @@
+{
+    "webDesign": {
+        "id": 1,
+        "title": "Web Design",
+        "url": "WebDesign",
+        "bgImage": "image-web-design"
+    },
+
+    "appDesign": {
+        "id": 2,
+        "title": "App Design",
+        "url": "AppDesign",
+        "bgImage": "image-app-design"
+    }, 
+
+    "graphicDesign": {
+        "id": 3,
+        "title": "Graphic Design",
+        "url": "GraphicDesign",
+        "bgImage": "image-graphic-design"
+    }
+}

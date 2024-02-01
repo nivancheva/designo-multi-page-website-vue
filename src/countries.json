@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "image": "illustration-canada",
+        "name": "Canada",
+        "abbreviation": "canada",
+        "street": "3886 Wellington Street",
+        "city": "Toronto, Ontario M9C 3J5",
+        "telephone": "+1 253-863-8967",
+        "email": "contact@designo.co",
+        "mapImg": "image-map-canada",
+        "position": [43.651070, -79.347015]
+
+    },
+
+    {
+        "id": 2,
+        "image": "illustration-australia",
+        "name": "Australia",
+        "street": "19 Balonne Street",
+        "city": "New South Wales 2443",
+        "telephone": "(02) 6720 9092",
+        "email": "contact@designo.au",
+        "mapImg": "image-map-australia",
+        "position": [-31.646544, 152.794124]
+    },
+
+    {
+        "id": 3,
+        "image": "illustration-united-kingdom",
+        "name": "United Kingdom",
+        "abbreviation": "uk",
+        "street": "13  Colorado Way",
+        "city": "Rhyd-y-fro SA8 9GA",
+        "telephone": "078 3115 1400",
+        "email": "contact@designo.uk",
+        "mapImg": "image-map-united-kingdom",
+        "position": [51.7719,  -3.9457]
+    }
+
+]
+
+
