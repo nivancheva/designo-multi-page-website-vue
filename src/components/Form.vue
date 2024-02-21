@@ -1,0 +1,67 @@
+<script setup>
+
+</script>
+
+<template>
+    <div>This is Form</div>
+</template>
+
+<style scoped>
+input,
+textarea {
+    width: 100%;
+    background-color: inherit;
+    color: var(--clr-white);
+    outline: 0;
+
+    border-bottom: 1px solid var(--clr-white-opacity);
+    padding-inline: 1rem;
+    padding-bottom: .688rem;
+
+    cursor: pointer;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--clr-white);
+    opacity: .6;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom-color: var(--clr-white);
+}
+
+.message-input {
+    padding-bottom: 3rem;
+}
+
+.errors {
+    align-items: center;
+    gap: .5rem;
+    font-size: .75rem;
+    font-style: italic;
+
+    position: absolute;
+    right: 0;
+    bottom: .5rem;
+}
+/* mobile */
+@media (max-width:639px) {
+    .form-button {
+        justify-self: center;
+    }
+}
+
+/* tablet */
+@media (min-width:640px) {
+    .form-button {
+        justify-self: end;
+    }
+}
+
+/* desktop */
+@media (min-width:864px) {
+   
+}
+</style>

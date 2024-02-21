@@ -1,3 +1,78 @@
+<script setup>
+import Countries from '../components/Countries/Countries.vue'
+import Form from '../components/Form.vue'
+
+</script>
+
 <template>
-    <h2>Contact</h2>
+    <div className="">
+            <div className="contact-form">
+                <div className="contact-form_text">
+                    <h1>Contact Us</h1>
+                    <p>Ready to take it to the next level? Let&apos;s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that&apos;s relatable to your users, drop us a line.</p>
+                </div>
+                <Form />
+            </div>
+            <Countries />
+            <div className="section-gap"></div>
+        </div>
 </template>
+
+<style scoped>
+.contact-form {
+    margin-inline: auto;
+    padding: 4.5rem 1.5rem;
+    display: grid;
+    gap: 3rem;
+
+    background-color: var(--clr-peach);
+    color: var(--clr-white);
+
+    background-image: url('../../../public/contact/mobile/bg-pattern-hero-contact-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-form h1 {
+    margin-bottom: 1.5rem;
+}
+
+/* mobile */
+@media (max-width:639px) {
+    .contact-form {
+        text-align: center;
+    }
+}
+
+/* tablet */
+@media (min-width:640px) {
+    .contact-form {
+        max-width: 680px;
+        width: 90%;
+        padding: 4.438rem 3.625rem;
+        gap: 2.5rem;
+
+        border-radius: var(--border-radius);
+
+        background-image: url('../../../public/contact/desktop/bg-pattern-hero-desktop.svg');
+        background-position: top left;
+    }
+
+    .contact-form h1 {
+        margin-bottom: 2rem;
+    }
+    
+}
+
+/* desktop */
+@media (min-width:864px) {
+    .contact-form {
+        max-width: 1111px;
+        gap: 5.938rem;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding: 3.438rem 6rem;
+    }
+
+}
+</style>
