@@ -7,7 +7,7 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "vite build",
+    "build": "vite build --base=/designo-multi-page-website-vue",
     "preview": "vite preview"
   },
   "dependencies": {
