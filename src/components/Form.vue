@@ -27,7 +27,7 @@ const onSubmit = handleSubmit(values => {
 </script>
 
 <template>
-    <form className='grid gap-[1.5rem]' @onSubmit="onSubmit">
+    <form className='grid gap-[1.5rem]' @submit="onSubmit">
 
             <div className='relative'>
                 <input 
