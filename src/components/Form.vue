@@ -1,9 +1,95 @@
 <script setup>
+import { useField, useForm } from 'vee-validate';
+import { toTypedSchema } from '@vee-validate/zod';
+import * as zod from 'zod';
+const validationSchema = toTypedSchema(
+  zod.object({
+    name: zod.string().min(1, "Can't be empty"),
+    email: zod.string().min(1, "Can't be empty").email({ message: "Please enter a valid email address." }),
+    phone: zod.string().min(1, "Can't be empty"),
+    message: zod.string().min(1, "Can't be empty")
+  })
+);
+const { handleFormSubmit, errors, register } = useForm({
+  validationSchema,
+});
+
+
+
+const { value: name } = useField('name');
+const { value: email } = useField('email');
+const { value: phone } = useField('phone');
+const { value: message } = useField('message');
 
 </script>
 
 <template>
-    <div>This is Form</div>
+    <form className='grid gap-[1.5rem]' @onSubmit="handleSubmit(handleFormSubmit)">
+
+            <div className='relative'>
+                <input 
+                    className='block'
+                    placeholder='Name'
+                    v-model="name"
+                />
+                <div className='errors flex'>
+                    <p>{{errors.name}}</p>
+                    <!-- <div><img src='/contact/desktop/icon-error.svg'/></div> -->
+                </div>
+
+                <!-- {errors.name && 
+                    <div className='errors flex'>
+                        <p>{errors.name.message}</p>
+                        <div><img src='/contact/desktop/icon-error.svg'/></div>
+                    </div>
+                } -->
+            </div>
+
+            <div className='relative'>
+                <input
+                    className='block'
+                    placeholder='Email Adress'
+                    v-model="email"
+                />
+                <!-- {errors.email && 
+                    <div className='errors flex'>
+                        <p>{errors.email.message}</p>
+                        <div><img src='/contact/desktop/icon-error.svg'/></div>
+                    </div>
+                } -->
+            </div>
+
+            <div className='relative'>
+                <input
+                    className='block'
+                    type="tel"
+                    placeholder='Phone'
+                    v-model="phone"
+                />
+                <!-- {errors.phone && 
+                    <div className='errors flex'>
+                        <p>{errors.phone.message}</p>
+                        <div><img src='/contact/desktop/icon-error.svg'/></div>
+                    </div>
+                } -->
+            </div>
+            
+            <div className='relative'>
+                <textarea
+                    className='block message-input'
+                    placeholder='Your message'
+                    v-model="message"
+                />
+                <!-- {errors.message && 
+                    <div className='errors flex'>
+                        <p>{errors.message.message}</p>
+                        <div><img src='/contact/desktop/icon-error.svg'/></div>
+                    </div>
+                } -->
+            </div>
+
+            <button className='button-secondary form-button'>Submit</button>
+        </form>
 </template>
 
 <style scoped>
