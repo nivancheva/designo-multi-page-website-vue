@@ -4,16 +4,15 @@ import { toTypedSchema } from '@vee-validate/zod';
 import * as zod from 'zod';
 const validationSchema = toTypedSchema(
   zod.object({
-    name: zod.string().min(1, "Can't be empty"),
-    email: zod.string().min(1, "Can't be empty").email({ message: "Please enter a valid email address." }),
-    phone: zod.string().min(1, "Can't be empty"),
-    message: zod.string().min(1, "Can't be empty")
+    name: zod.string().min(1, { message: "Can't be empty" }),
+    email: zod.string().min(1, { message: "Can't be empty" }).email({ message: "Please enter a valid email address." }),
+    phone: zod.string().min(1, { message: "Can't be empty" }),
+    message: zod.string().min(1, { message: "Can't be empty" })
   })
 );
-const { handleFormSubmit, errors, register } = useForm({
+const { handleSubmit, errors, register } = useForm({
   validationSchema,
 });
-
 
 
 const { value: name } = useField('name');
@@ -34,7 +33,7 @@ const { value: message } = useField('message');
                 />
                 <div className='errors flex'>
                     <p>{{errors.name}}</p>
-                    <!-- <div><img src='/contact/desktop/icon-error.svg'/></div> -->
+                    <div><img src='/contact/desktop/icon-error.svg'/></div>
                 </div>
 
                 <!-- {errors.name && 
