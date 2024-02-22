@@ -34,10 +34,9 @@ function handleClick() {
                 </div>
             </div>
         </div>
-        <!-- { isOpen && 
-            <div className="navbar-overlay">
-            </div>
-        } -->
+
+        <div v-if="isOpen" className="navbar-overlay">
+        </div>
 </template>
 
 <style scoped>
