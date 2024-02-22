@@ -10,14 +10,14 @@ const props = defineProps({
   
 })
 
+import Map from '../Map.vue'
 </script>
 
 <template>
 <div className="country_expand-wrapper">
-    <!-- <div className='map-img'>
-        <Map position={position}/>
-    </div> -->
-    <div>Hello</div>
+    <div className='map-img'>
+        <Map :position="position"/>
+    </div> 
     
     <div className="country-details">
         <h2>{{name}}</h2>
