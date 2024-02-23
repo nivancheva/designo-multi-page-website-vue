@@ -28,7 +28,7 @@ import Form from '../components/Form.vue'
     background-color: var(--clr-peach);
     color: var(--clr-white);
 
-    background-image: url('../../../public/contact/mobile/bg-pattern-hero-contact-mobile.svg');
+    background-image: url('/contact/mobile/bg-pattern-hero-contact-mobile.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -54,7 +54,7 @@ import Form from '../components/Form.vue'
 
         border-radius: var(--border-radius);
 
-        background-image: url('../../../public/contact/desktop/bg-pattern-hero-desktop.svg');
+        background-image: url('/contact/desktop/bg-pattern-hero-desktop.svg');
         background-position: top left;
     }
 
