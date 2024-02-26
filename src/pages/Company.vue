@@ -9,14 +9,14 @@ import Countries from '../components/Countries/Countries.vue'
             <div className='company-sections about'>
                 <picture className='company-img'>
                     <source
-                        srcSet="/about/desktop/image-about-hero.jpg"
+                        srcSet="about/desktop/image-about-hero.jpg"
                         media="(min-width:864px)"
                     />
                     <source
-                        srcSet="/about/tablet/image-about-hero.jpg"
+                        srcSet="about/tablet/image-about-hero.jpg"
                         media="(min-width:640px)"
                     />
-                    <img src="/about/mobile/image-about-hero.jpg" />
+                    <img src="about/mobile/image-about-hero.jpg" />
                 </picture>
               
                 <div className='about-us_text padding-company'>
@@ -28,14 +28,14 @@ import Countries from '../components/Countries/Countries.vue'
             <div className='company-sections'>
                 <picture className='company-img'>
                     <source
-                        srcSet="/about/desktop/image-world-class-talent.jpg"
+                        srcSet="about/desktop/image-world-class-talent.jpg"
                         media="(min-width:864px)"
                     />
                     <source
-                        srcSet="/about/tablet/image-world-class-talent.jpg"
+                        srcSet="about/tablet/image-world-class-talent.jpg"
                         media="(min-width:640px)"
                     />
-                    <img src="/about/mobile/image-world-class-talent.jpg" />
+                    <img src="about/mobile/image-world-class-talent.jpg" />
                 </picture>
 
                 <div className='world-talant_text padding-company'>
@@ -50,14 +50,14 @@ import Countries from '../components/Countries/Countries.vue'
             <div className='company-sections section-gap'>
                 <picture className='company-img'>
                     <source
-                        srcSet="/about/desktop/image-real-deal.jpg"
+                        srcSet="about/desktop/image-real-deal.jpg"
                         media="(min-width:864px)"
                     />
                     <source
-                        srcSet="/about/tablet/image-real-deal.jpg"
+                        srcSet="about/tablet/image-real-deal.jpg"
                         media="(min-width:640px)"
                     />
-                    <img src="/about/mobile/image-real-deal.jpg" />
+                    <img src="about/mobile/image-real-deal.jpg" />
                 </picture>
 
                 <div className='real-deal_text padding-company'>
