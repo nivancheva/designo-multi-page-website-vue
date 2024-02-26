@@ -14,7 +14,6 @@ import { LMap, LTileLayer, LMarker } from "@vue-leaflet/vue-leaflet"
         layer-type="base"
         name="OpenStreetMap"
       ></l-tile-layer>
-      <l-marker :lat-lng="markerLatLng"></l-marker>
       <l-marker :lat-lng="position" ></l-marker>
 </l-map>
 </template>
