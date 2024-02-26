@@ -16,7 +16,7 @@ import Countries from '../components/Countries/Countries.vue'
                         srcSet="/about/tablet/image-about-hero.jpg"
                         media="(min-width:640px)"
                     /> -->
-                    <img src="/about/desktop/image-about-hero.jpg" class="desctop-img"/>
+                    <img src="/about/desktop/image-about-hero.jpg" class="desktop-img"/>
                     <img src="/about/tablet/image-about-hero.jpg" class="tablet-img"/>
                     <img src="/about/mobile/image-about-hero.jpg" class="mobile-img"/>
                 </div>
