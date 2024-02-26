@@ -9,11 +9,13 @@ import { LMap, LTileLayer, LMarker } from "@vue-leaflet/vue-leaflet"
 
 <template>
   <l-map ref="map" :zoom="13" :center="position" :useGlobalLeaflet="false">
-    <l-tile-layer url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+      <l-tile-layer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         layer-type="base"
-        name="Stadia Maps Basemap">
-    </l-tile-layer>
-    <l-marker :lat-lng="position" ></l-marker>
+        name="OpenStreetMap"
+      ></l-tile-layer>
+      <l-marker :lat-lng="markerLatLng"></l-marker>
+      <l-marker :lat-lng="position" ></l-marker>
 </l-map>
 </template>
 
