@@ -8,8 +8,8 @@ const props = defineProps({
 </script>
 
 <template>
-  <div className='card test'>
-        <img :src="`../${category}/${image}.jpg`" alt='card images'/>
+  <div className='card'>
+        <img :src="`/designo-multi-page-website-vue/${category}/${image}.jpg`" alt='card images'/>
         <div className='card-text'>
             <h3 className='title'>{{title}}</h3>
             <p>{{text}}</p>
