@@ -8,14 +8,6 @@ import Countries from '../components/Countries/Countries.vue'
     <div className="">
             <div className='company-sections about'>
                 <div className='company-img'>
-                    <!-- <source
-                        srcSet="/about/desktop/image-about-hero.jpg"
-                        media="(min-width:864px)"
-                    />
-                    <source
-                        srcSet="/about/tablet/image-about-hero.jpg"
-                        media="(min-width:640px)"
-                    /> -->
                     <img src="/about/desktop/image-about-hero.jpg" class="desktop-img"/>
                     <img src="/about/tablet/image-about-hero.jpg" class="tablet-img"/>
                     <img src="/about/mobile/image-about-hero.jpg" class="mobile-img"/>
@@ -29,14 +21,6 @@ import Countries from '../components/Countries/Countries.vue'
 
             <div className='company-sections'>
                 <div className='company-img'>
-                    <!-- <source
-                        srcSet="/about/desktop/image-world-class-talent.jpg"
-                        media="(min-width:864px)"
-                    />
-                    <source
-                        srcSet="/about/tablet/image-world-class-talent.jpg"
-                        media="(min-width:640px)"
-                    /> -->
                     <img src="/about/desktop/image-world-class-talent.jpg" class="desktop-img"/>
                     <img src="/about/tablet/image-world-class-talent.jpg" class="tablet-img"/>
                     <img src="/about/mobile/image-world-class-talent.jpg" class="mobile-img"/>
@@ -52,17 +36,11 @@ import Countries from '../components/Countries/Countries.vue'
             <Countries />
 
             <div className='company-sections section-gap'>
-                <picture className='company-img'>
-                    <source
-                        srcSet="/about/desktop/image-real-deal.jpg"
-                        media="(min-width:864px)"
-                    />
-                    <source
-                        srcSet="/about/tablet/image-real-deal.jpg"
-                        media="(min-width:640px)"
-                    />
-                    <img src="/about/mobile/image-real-deal.jpg" />
-                </picture>
+                <div className='company-img'>
+                    <img src="/about/desktop/image-real-deal.jpg" class="desktop-img"/>
+                    <img src="/about/tablet/image-real-deal.jpg" class="tablet-img"/>
+                    <img src="/about/mobile/image-real-deal.jpg" class="mobile-img"/>
+                </div>
 
                 <div className='real-deal_text padding-company'>
                     <h2>The real deal</h2>
@@ -174,6 +152,10 @@ import Countries from '../components/Countries/Countries.vue'
     .tablet-img,
     .mobile-img {
         display: none;
+    }
+
+    .desktop-img {
+        display: block;
     }
 }
 </style>
