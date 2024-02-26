@@ -9,11 +9,11 @@ import Countries from '../components/Countries/Countries.vue'
             <div className='company-sections about'>
                 <picture className='company-img'>
                     <source
-                        srcSet="/designo-multi-page-website-vue/about/desktop/image-about-hero.jpg"
+                        src="/designo-multi-page-website-vue/about/desktop/image-about-hero.jpg"
                         media="(min-width:864px)"
                     />
                     <source
-                        srcSet="/designo-multi-page-website-vue/about/tablet/image-about-hero.jpg"
+                        src="/designo-multi-page-website-vue/about/tablet/image-about-hero.jpg"
                         media="(min-width:640px)"
                     />
                     <img src="/about/mobile/image-about-hero.jpg" />
