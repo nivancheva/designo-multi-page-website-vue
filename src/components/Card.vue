@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
   <div className='card'>
-        <img :src="`/designo-multi-page-website-vue/${category}/${image}.jpg`" alt='card images'/>
+        <img :src="`../${category}/${image}.jpg`" alt='card images'/>
         <div className='card-text'>
             <h3 className='title'>{{title}}</h3>
             <p>{{text}}</p>
