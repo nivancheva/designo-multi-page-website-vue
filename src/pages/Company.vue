@@ -7,17 +7,19 @@ import Countries from '../components/Countries/Countries.vue'
 <template>
     <div className="">
             <div className='company-sections about'>
-                <picture className='company-img'>
-                    <source
+                <div className='company-img'>
+                    <!-- <source
                         srcSet="/about/desktop/image-about-hero.jpg"
                         media="(min-width:864px)"
                     />
                     <source
                         srcSet="/about/tablet/image-about-hero.jpg"
                         media="(min-width:640px)"
-                    />
-                    <img src="/about/mobile/image-about-hero.jpg" />
-                </picture>
+                    /> -->
+                    <img src="/about/desktop/image-about-hero.jpg" class="desctop-img"/>
+                    <img src="/about/tablet/image-about-hero.jpg" class="tablet-img"/>
+                    <img src="/about/mobile/image-about-hero.jpg" class="mobile-img"/>
+                </div>
               
                 <div className='about-us_text padding-company'>
                     <h2>About Us</h2>
@@ -114,7 +116,10 @@ import Countries from '../components/Countries/Countries.vue'
 
 /* mobile */
 @media (max-width:639px) {
-
+    .desctop-img,
+    .tablet-img {
+        display: none;
+    }
 }
 
 /* tablet */
@@ -134,6 +139,11 @@ import Countries from '../components/Countries/Countries.vue'
 
     .about {
         margin-bottom: 7.5rem;
+    }
+
+    .desctop-img,
+    .mobile-img {
+        display: none;
     }
 }
 
@@ -157,6 +167,11 @@ import Countries from '../components/Countries/Countries.vue'
     .about-us_text {
         order: -1;
         padding-inline: 5.938rem;
+    }
+
+    .tablet-img,
+    .mobile-img {
+        display: none;
     }
 }
 </style>
