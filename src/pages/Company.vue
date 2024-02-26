@@ -116,7 +116,7 @@ import Countries from '../components/Countries/Countries.vue'
 
 /* mobile */
 @media (max-width:639px) {
-    .desctop-img,
+    .desktop-img,
     .tablet-img {
         display: none;
     }
@@ -141,7 +141,7 @@ import Countries from '../components/Countries/Countries.vue'
         margin-bottom: 7.5rem;
     }
 
-    .desctop-img,
+    .desktop-img,
     .mobile-img {
         display: none;
     }
