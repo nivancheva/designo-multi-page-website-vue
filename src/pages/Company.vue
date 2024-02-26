@@ -28,17 +28,19 @@ import Countries from '../components/Countries/Countries.vue'
             </div>
 
             <div className='company-sections'>
-                <picture className='company-img'>
-                    <source
+                <div className='company-img'>
+                    <!-- <source
                         srcSet="/about/desktop/image-world-class-talent.jpg"
                         media="(min-width:864px)"
                     />
                     <source
                         srcSet="/about/tablet/image-world-class-talent.jpg"
                         media="(min-width:640px)"
-                    />
-                    <img src="/about/mobile/image-world-class-talent.jpg" />
-                </picture>
+                    /> -->
+                    <img src="/about/desktop/image-world-class-talent.jpg" class="desktop-img"/>
+                    <img src="/about/tablet/image-world-class-talent.jpg" class="tablet-img"/>
+                    <img src="/about/mobile/image-world-class-talent.jpg" class="mobile-img"/>
+                </div>
 
                 <div className='world-talant_text padding-company'>
                     <h2>World-class talent</h2>
