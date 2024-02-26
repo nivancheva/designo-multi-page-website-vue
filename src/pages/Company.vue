@@ -9,11 +9,11 @@ import Countries from '../components/Countries/Countries.vue'
             <div className='company-sections about'>
                 <picture className='company-img'>
                     <source
-                        srcset="/designo-multi-page-website-vue/about/desktop/image-about-hero.jpg"
+                        srcSet="/about/desktop/image-about-hero.jpg"
                         media="(min-width:864px)"
                     />
                     <source
-                        srcset="/designo-multi-page-website-vue/about/tablet/image-about-hero.jpg"
+                        srcSet="/about/tablet/image-about-hero.jpg"
                         media="(min-width:640px)"
                     />
                     <img src="/about/mobile/image-about-hero.jpg" />
@@ -28,11 +28,11 @@ import Countries from '../components/Countries/Countries.vue'
             <div className='company-sections'>
                 <picture className='company-img'>
                     <source
-                        srcSet="/designo-multi-page-website-vue/about/desktop/image-world-class-talent.jpg"
+                        srcSet="/about/desktop/image-world-class-talent.jpg"
                         media="(min-width:864px)"
                     />
                     <source
-                        srcSet="/designo-multi-page-website-vue/about/tablet/image-world-class-talent.jpg"
+                        srcSet="/about/tablet/image-world-class-talent.jpg"
                         media="(min-width:640px)"
                     />
                     <img src="/about/mobile/image-world-class-talent.jpg" />
@@ -50,11 +50,11 @@ import Countries from '../components/Countries/Countries.vue'
             <div className='company-sections section-gap'>
                 <picture className='company-img'>
                     <source
-                        srcSet="/designo-multi-page-website-vue/about/desktop/image-real-deal.jpg"
+                        srcSet="/about/desktop/image-real-deal.jpg"
                         media="(min-width:864px)"
                     />
                     <source
-                        srcSet="/designo-multi-page-website-vue/about/tablet/image-real-deal.jpg"
+                        srcSet="/about/tablet/image-real-deal.jpg"
                         media="(min-width:640px)"
                     />
                     <img src="/about/mobile/image-real-deal.jpg" />
